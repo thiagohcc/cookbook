@@ -1,6 +1,6 @@
 FROM node:16.14
 
-WORKDIR /coockbook-backend
+WORKDIR /app-backend
 # Copiar os package.json e package-lock.json para o container
 COPY package* ./
 # Instalar as dependências Node
@@ -12,4 +12,4 @@ EXPOSE 3001
 # Configurar os comandos para iniciar a aplicação de acordo com as boas práticas
 # Dica: Leia a seção Docker e Docker-compose no README para mais informações
 ENTRYPOINT [ "npm", "run" ]
-CMD [ "start" ]
+CMD [ "dev" ]

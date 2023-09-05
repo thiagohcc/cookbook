@@ -2,5 +2,5 @@
 
 #### Instalando as dependências:
 
-Antes de iniciar, rode o comando `docker-compose up -d --build`,
-e acesse a pasta `front-end` para rodar o comando `npm install`.
+Antes de iniciar, rode o comando `docker-compose up -d --build`.
+Na pasta `front-end` e `back-end` rode o comando `npm install`.
